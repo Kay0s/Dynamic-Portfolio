@@ -1,0 +1,29 @@
+.text-center,
+.text-center pargraph .nav-link,
+.fixed-bottom d-flex justify-content-center w-100 {
+  color: #C40821;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text-center {
+  text-shadow: 2px 2px #080202;
+}
+
+.navbar navbar-expand-lg,
+.collapse navbar-collapse,
+.fixed-bottom d-flex justify-content-center w-100 {
+  background: #FF9F1C;
+  margin-bottom: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* links external url image and makes it the size of the whole screen */
+.background-image {
+  background-image: url("https://images.unsplash.com/photo-1586813331420-07464ae3de65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+}
+
+.card-transparent {
+  background-color: rgba(245, 245, 245, .4);
+
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- help image parameters -->
+<html lang="en-us" style="height:100%">
+  <head>
+    <meta charset="UTF-8">
+   <!-- meta tag for proper scaling across varying devices. -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Title on Conatct Page for screen reader users and SEO optimization. --> 
+   <title>Kristina Hamilton - Contact</title>
+
+ <!-- Bootstrap CSS (copied and pasted from getbootstrap.com) --> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Custom CSS adding styling to the text boxes and links --> 
+    <link rel="stylesheet" type="text/css" href="./assets/css/contact-css.css">
+  
+  </head>
+
+<!-- help image parameters) -->
+<body style="height:100%">
+   <!-- NavBar (copied and pasted from WC3) -->
+   <!-- Dynamic NavBar (with Toggler for varying devices) with customized background color (bg-primary)-->
+   <!-- nav class=navbar for semantic meaning and screen reader users-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <!-- a href link on brand logo/Kristina Hamilton leading to Main/index.html -->
+      <span class="navbar-brand mb-1 h1 "><a href="./index.html">Kristina Hamilton</a></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- ml-auto to adjust NavBar contents to the right -->
+        <ul class="nav navbar-nav ml-auto">
+          <!-- a href link leading to about.html with Person square icon (saved from getbootstrap.com) -->
+          <!-- Person square icon with "alt="About Icon" for screen reader users -->
+          <li class="nav-item">
+          <a class="nav-link" href="./index.html"><img src="./assets/images/person-square.svg" alt="About Icon">About</a>
+          </li>
+          <li class="nav-item">
+             <!-- a href link leading to portfolio.html with Layout text sidebar icon (saved from getbootstrap.com) -->
+             <!-- Layout text sidebar icon "alt="Portfolio Icon" for screen reader users -->
+             <a class="nav-link" href="./portfolio.html"><img src="./assets/images/layout.svg" alt="Portfolio Icon">Portfolio</a>
+          </li>
+           <!-- Text becomes bold so user knows what page they're currently on (contact.html/Contact) -->
+          <li class="nav-item active">
+            <!-- a href link leading to contact.html with Envelope fill icon (saved from getbootstrap.com) -->
+             <!-- Envelope fill icon with "alt="Contact Icon" for screen reader users -->
+             <a class="nav-link" href="./contact.html"><img src="./assets/images/envelope.svg" alt="Contact Icon">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      <!-- Main Body goes in Container -->
+   <!-- background image with class detail to position and determine the height.  also includes class="background-image"screen reader users -->
+   <div role="img" title="background image of water" class="background-image background-position-center background-repeat no mt4" style="height:100%">
+      <!-- Contact Form is in a card -->
+      <div class="card border-info">
+      <div class="card-body">
+  <!-- Creates header font that's aligned center -->
+  <h1 class="text-center">Let's connect</h1>
+  <!-- Contact Form info from w3schools.com) -->
+        <!-- Only element on the page, so col-12 -->
+        <div class="col-lg-12">
+          <!-- Given "form" semantic for screen reader users and SEO optimization -->
+          <form action="action_page.php">
+            <!-- Given "label name" semantic for screen reader users -->
+            <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name.. "/>
+            <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Please fill out this field</div>
+          </div>
+<!-- Given "label name" semantic for screen reader users -->        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
+            <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Please fill out this field</div>
+<!-- Creates drop-down menu with three options --> 
+<div class="form-group">
+  <label for="sel1">Contact regarding:</label>
+  <select class="form-control" id="sel1">
+    <option>Web Development</option>
+    <option>Database Management</option>
+    <option>Server Maintenance</option>
+  </select>
+</div> 
+  </form>
+<!-- creates a link in the button, that once pressed, will initiate email to hamilton.kristina@gmail.com -->
+            <a class="btn btn-success bg-success" href="mailto:hamilton.kristina@gmail.com" role="button">Email</a>
+      </div>
+        </div>
+      </div>
+      </div>
+
+<!-- footer element -->
+<footer>
+  <!-- "fixed-bottom" so footer is fixed to the bottom of the page, "justify-content-center" aligns wording center, w-100 makes the footer span 100% of the bottom of the page wide-->
+ <!-- text-white makes the font white and bg-info makes the footer light blue -->
+  <div class="fixed-bottom d-flex justify-content-center w-100 text-white bg-info" style="height:40px">&copy;Copyright 2020 Kristina Hamilton</div>
+</footer>
+
+    <!-- Scripts (Copied and pasted from getbootstrap.com) required to allow some Bootstrap components, like the Dynamic NavBar, to work.-->
+    <!-- jQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap JavaScript CDN-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+  </body>
+</html>
