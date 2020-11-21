@@ -39,3 +39,7 @@ a:active {
 .card-transparent {
   background-color: rgba(245, 245, 245, .4);
 }
+
+.socialLinks text-white {
+  float: right;
+}
