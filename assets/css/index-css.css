@@ -32,14 +32,26 @@ a:active {
   background-size: cover;
 }
 
-
-/* taken from https://stackoverflow.com/questions/42430987/how-to-change-the-opacity-of-a-card-block-in-bootstrap-4 */
-/* retrieved on 10 Oct 2020 */
-/* couldn't figure out how to change the opacity of the card and now I know how */
 .card-transparent {
-  background-color: rgba(245, 245, 245, .4);
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.aboutText {
+  text-align: center;
+}
+
+.skillsText {
+  text-align: right;
+  margin-right: 150px;
+  padding-top: 30px;
+}
+
+.text-center text-black {
+  font-size: 18px
 }
 
 .socialLinks text-white {
   float: right;
 }
+
+/* text18for paragraph add logos javascript, node*/
