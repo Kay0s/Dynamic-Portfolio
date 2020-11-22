@@ -1,42 +1,19 @@
-/* makes unvisited link yellow witih no underline */
-a:link {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-/* makes visited link purple with no underline */
-a:visited {
-  color: purple;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-/* when mousing over a link, the background will be green and underlined */
-a:hover {
-  background-color: green;
-  text-decoration: underline;
-}
-
-/* makes an active link orange and underlined */
-a:active {
-  color: orange;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
 /* links external url image and makes it the size of the whole screen */
 .background-image {
   background-image: url("https://images.unsplash.com/photo-1502740289988-04eddde1556a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
   background-size: cover;
 }
 
-
-/* taken from https://stackoverflow.com/questions/42430987/how-to-change-the-opacity-of-a-card-block-in-bootstrap-4 */
-/* retrieved on 10 Oct 2020 */
-/* couldn't figure out how to change the opacity of the card and now I know how */
+/* change the opacity of the card and now I know how */
 .card-transparent {
   background-color: rgba(245, 245, 245, .4);
+}
+
+.app,
+.summary,
+.tools {
+  font-weight: bold;
+  float: right;
 }
 
 .name {
@@ -46,4 +23,40 @@ a:active {
 .socialLinks {
   text-align: center;
 
+}
+
+footer a {
+  color: white;
+}
+
+span a {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.deployed {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.gitHub {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
 }
