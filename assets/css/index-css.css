@@ -50,8 +50,13 @@ a:active {
   font-size: 18px
 }
 
-.socialLinks text-white {
-  float: right;
+.name {
+  text-align: left;
+}
+
+.socialLinks {
+  text-align: center;
+
 }
 
 /* text18for paragraph add logos javascript, node*/

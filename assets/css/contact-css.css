@@ -37,10 +37,26 @@ a:active {
 /* retrieved on 7 Oct 2020 */
 /* couldn't figure out how to style the text and select elements */
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /*Full width*/ 
-  padding: 12px; /* Some padding */ 
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /*Full width*/
+  padding: 12px;
+  /* Some padding */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+}
+
+.name {
+  text-align: left;
+}
+
+.socialLinks {
+  text-align: center;
+
 }
