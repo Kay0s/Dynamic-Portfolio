@@ -14,6 +14,8 @@
 .tools {
   font-weight: bold;
   float: right;
+  width: 5%;
+  height: 5%
 }
 
 .name {
