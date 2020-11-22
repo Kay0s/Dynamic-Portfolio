@@ -1,41 +1,9 @@
-/* makes unvisited link yellow witih no underline
-a:link {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-makes visited link purple with no underline
-a:visited {
-  color: purple;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-when mousing over a link, the background will be green and underlined
-a:hover {
-  background-color: green;
-  text-decoration: underline;
-}
-
-makes an active link orange and underlined */
-a:active {
-  color: orange;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-
 /* links external url image and makes it the size of the whole screen */
 .background-image {
   background-image: url("https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
   background-size: cover;
 }
 
-
-/* taken from w3chools.com */
-/* retrieved on 7 Oct 2020 */
-/* couldn't figure out how to style the text and select elements */
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],
 select,
@@ -80,4 +48,12 @@ textarea {
 
 .nav-link {
   margin-bottom: 15px;
+}
+
+footer a {
+  color: white;
+}
+
+span a {
+  color: white;
 }
