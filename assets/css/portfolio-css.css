@@ -4,18 +4,29 @@
   background-size: cover;
 }
 
-/* change the opacity of the card and now I know how */
+.container {
+  margin-top: 2px;
+}
+
+.text-center {
+  margin-top: 5px;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.projects {
+  padding-top: 15px;
+}
+
+/* change the opacity of the card */
 .card-transparent {
   background-color: rgba(245, 245, 245, .4);
 }
 
-.app,
-.summary,
-.tools {
-  font-weight: bold;
-  float: right;
-  width: 5%;
-  height: 5%
+.weather {
+  margin-bottom: 75px;
 }
 
 .name {
