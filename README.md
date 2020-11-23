@@ -2,7 +2,8 @@
 
 ## Overview
 
-I created a dynamic and responsive portfolio to showcase my creations, so clients can see how I can get them the solutions they need.
+I created a dynamic and responsive portfolio to showcase my creations, so clients can see how I can get them the
+solutions they need.
 
 ## Dynamic and Responsive Portfolio Expectations
 
@@ -18,30 +19,35 @@ To showcase my wide array of skills and creativity while still being mobile firs
 1. All HTML and CSS elements have proper semantaics for screen reader users and SEO optimization.
 2. CSS used minimally when Bootstrap coding isn't available.
 3. Closing tags
-5. Functional links
-6. Dynamic response to varying screen sizes
+4. Functional links
+5. Dynamic response to varying screen sizes
 
 ## Features Employed on Responsive Portfolio
 
 - Utilized high contrast for viewability.
 - JavaScript was used from www.getbootstrap.com to utlilze the dynamic navbar.
 - Information from www.w3schools.com was used to create a form with drop down options.
-- A clickable button the initiates an email to hamilton.kristina@gmail.com was created with guidance from www.w3schools.com
+- A clickable button the initiates an email to hamilton.kristina@gmail.com was created with guidance from
+  www.w3schools.com
 - Opacity for the cards was changed with advice from ww.stackoverflow.com.
-- The <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> code was used to enable proper scaling across varying devices.
+- The <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> code was used to enable
+  proper scaling across varying devices.
 - Bootstrap varying col sizes and flex elements were used for viewing on different screen sizes.
 - Bootstrap "img-rounded" employed to give "user" image on index.html and dynamic appearance.
-- Bootstrap .svg icons were used on the Navbar to help distinguish the separate links.
+- Font Awesome icons were used on the footer to help distinguish the separate links.
 
-## Deployed Responsive Portfolio and Images of Dynamic Sizing
+## Deployed Responsive Portfolio and Images
 
-\*[Deployed website](https://kay0s.github.io/Portfolio/)
-\*[GitHub Repository](https://github.com/Kay0s/Portfolio)
-![Screenshot of Index.html at 400 resolution](./index400.png)
-![Screenshot of Portfolio.html](./portfolio768.png)
-![Screenshot of Contact.html](./contact992.png)
-![Screenshot of index.html](./code.png)
+\*[Deployed website](https://kay0s.github.io/Portfolio/) \*[GitHub Repository](https://github.com/Kay0s/Dynamic-Portfolio)
+![Screenshot of Index.html](./assets/images/index.png) ![Screenshot of Portfolio.html](./assets/images/portfolio.png)
+![Screenshot of Contact.html](./assets/images/contact.png)
 
+## Tools Used
+
+- HTML
+- CSS
+- Bootstrap
+- Font Awesome
 
 ## Research Resources
 
@@ -50,4 +56,18 @@ To showcase my wide array of skills and creativity while still being mobile firs
 - [GetBootstrop - Bootstrap](https://getbootstrap.com/)
 - [W3C - Validator](https://validator.w3.org/)
 
-© 2020 Kristina Hamilton and Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+## License
+
+© 2020 Kristina Hamilton and Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. Permission is hereby
+granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
