@@ -1,15 +1,40 @@
 /* links external url image and makes it the size of the whole screen */
 .background-image {
-  background-image: url("https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+  background: url("https://images.unsplash.com/photo-1581508525585-04ea0dcd91d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
+}
+
+.about {
+  font-size: 18px;
+}
+
+nav {
+  background-color: rgb(3, 24, 3);
+}
+
+.nav-link {
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(3, 24, 3);
 }
 
 footer a {
   color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+span {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 span a {
   color: white;
+  font-size: 25px;
 }
 
 .card-transparent {
@@ -38,5 +63,3 @@ span a {
   text-align: center;
 
 }
-
-/* text18for paragraph add logos javascript, node*/

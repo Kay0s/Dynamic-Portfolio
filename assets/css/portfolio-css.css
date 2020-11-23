@@ -4,6 +4,10 @@
   background-size: cover;
 }
 
+span a {
+  color: white;
+}
+
 .container {
   margin-top: 2px;
 }
@@ -13,7 +17,7 @@
 }
 
 .heading {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .projects {
@@ -39,10 +43,6 @@
 }
 
 footer a {
-  color: white;
-}
-
-span a {
   color: white;
 }
 
