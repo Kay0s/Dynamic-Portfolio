@@ -1,4 +1,4 @@
-# Responsive Portfolio
+# Dynamic Portfolio
 
 ## Overview
 
