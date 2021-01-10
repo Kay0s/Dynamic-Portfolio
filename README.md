@@ -1,4 +1,4 @@
-# Responsive Portfolio
+# Dynamic Portfolio
 
 ## Overview
 
@@ -38,7 +38,7 @@ To showcase my wide array of skills and creativity while still being mobile firs
 
 ## Deployed Responsive Portfolio and Images
 
-\*[Deployed website](https://kay0s.github.io/Portfolio/) \*[GitHub Repository](https://github.com/Kay0s/Dynamic-Portfolio)
+\*[Deployed website](https://kay0s.github.io/Dynamic-Portfolio/portfolio.html) \*[GitHub Repository](https://github.com/Kay0s/Dynamic-Portfolio)
 ![Screenshot of Index.html](./assets/images/index.png) ![Screenshot of Portfolio.html](./assets/images/portfolio.png)
 ![Screenshot of Contact.html](./assets/images/contact.png)
 
@@ -58,7 +58,7 @@ To showcase my wide array of skills and creativity while still being mobile firs
 
 ## License
 
-© 2020 Kristina Hamilton and Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. Permission is hereby
+© 2021 Kristina Hamilton and Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. Permission is hereby
 granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the
 "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify,
 merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software
