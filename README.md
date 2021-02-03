@@ -38,7 +38,7 @@ To showcase my wide array of skills and creativity while still being mobile firs
 
 ## Deployed Responsive Portfolio and Images
 
-\*[Deployed website](https://kay0s.github.io/Dynamic-Portfolio/portfolio.html) \*[GitHub Repository](https://github.com/Kay0s/Dynamic-Portfolio)
+\*[Deployed website](https://kay0s.github.io/Dynamic-Portfolio/) \*[GitHub Repository](https://github.com/Kay0s/Dynamic-Portfolio)
 ![Screenshot of Index.html](./assets/images/index.png) ![Screenshot of Portfolio.html](./assets/images/portfolio.png)
 ![Screenshot of Contact.html](./assets/images/contact.png)
 
