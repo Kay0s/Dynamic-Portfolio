@@ -25,7 +25,6 @@ To showcase my wide array of skills and creativity while still being mobile firs
 
 \*[Deployed website](https://kay0s.github.io/Dynamic-Portfolio/) \*[GitHub Repository](https://github.com/Kay0s/Dynamic-Portfolio)
 ![Screenshot of Index.html](/images/index.png)
-![Screenshot of Portfiolio](/images/portfolio.png)
 
 ## Tools Used
 
