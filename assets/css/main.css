@@ -2986,7 +2986,7 @@ button:disabled,
 .main.style2 input[type="button"]:hover,
 .main.style2 button:hover,
 .main.style2 .button:hover {
-	background-color: rgba(255, 255, 255, 0.125);
+	background-color: rgba(3, 31, 14, 0.637);
 }
 
 .main.style2 input[type="submit"]:active,
@@ -2994,7 +2994,7 @@ button:disabled,
 .main.style2 input[type="button"]:active,
 .main.style2 button:active,
 .main.style2 .button:active {
-	background-color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(2, 63, 22, 0.561);
 }
 
 .main.style2 input[type="submit"].primary,
@@ -3002,9 +3002,9 @@ button:disabled,
 .main.style2 input[type="button"].primary,
 .main.style2 button.primary,
 .main.style2 .button.primary {
-	background-color: #ffffff;
+	background-color: #04290da8;
 	box-shadow: inset 0 0 0 1px #ffffff !important;
-	color: #333 !important;
+	color: rgba(12, 90, 38, 0.664) !important;
 }
 
 .main.style2 input[type="submit"].primary:hover,
@@ -3036,10 +3036,10 @@ button:disabled,
 
 #header {
 	padding: 9em 0 9em 0;
-	background-color: #e2e6e7;
+	background-color: #042f13;
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed, fixed, fixed;
-	background-image: url("../../images/header.jpg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+	background-image: url("../../images/header.jpg"), linear-gradient(45deg, #43c263, #064904 50%, #044907 95%);
 	background-position: top left, center center, center center;
 	background-size: auto, cover, cover;
 	overflow: hidden;
@@ -3106,7 +3106,7 @@ button:disabled,
 #header .button.primary {
 	background-color: #ffffff;
 	box-shadow: inset 0 0 0 1px #ffffff !important;
-	color: #4686a0 !important;
+	color: #063308 !important;
 }
 
 #header input[type="submit"].primary:hover,
@@ -3240,7 +3240,7 @@ body.is-preload #header:after {
 
 #footer {
 	padding: 6em 0 6em 0;
-	background-color: #4686a0;
+	background-color: #053513;
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed, fixed, fixed;
 	background-image: url("../../images/header.jpg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
@@ -3308,7 +3308,7 @@ body.is-preload #header:after {
 #footer .button.primary {
 	background-color: #ffffff;
 	box-shadow: inset 0 0 0 1px #ffffff !important;
-	color: #4686a0 !important;
+	color: #03380a !important;
 }
 
 #footer input[type="submit"].primary:hover,
