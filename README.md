@@ -36,7 +36,6 @@ To showcase my wide array of skills and creativity while still being mobile firs
 ## Photo Contributions
 
 - [Wengang Zhai - Unsplash](https://unsplash.com/photos/MJ_0PxIuquI)
-- [John Schnobrich - Unsplash](https://unsplash.com/photos/FlPc9_VocJ4)
 - [Christian Wiediger - Unsplash](https://unsplash.com/photos/WkfDrhxDMC8)
 - [fauxels - Pexels](https://www.pexels.com/photo/people-inside-building-3184455/)
 
