@@ -13,6 +13,32 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+		(function () {
+			// https://dashboard.emailjs.com/admin/integration
+			emailjs.init("user_peOWtEPmRraZmTTaHjVpF");
+		})();
+	</script>
+	<script type="text/javascript">
+		window.onload = function () {
+			document.getElementById('contact-form').addEventListener('submit', function (event) {
+				event.preventDefault();
+				// generate a five digit number for the contact_number variable
+				this.contact_number.value = Math.random() * 100000 | 0;
+				// these IDs from the previous steps
+				emailjs.sendForm('service_n724wje', 'contact_form', this)
+					.then(function () {
+						console.log('SUCCESS!');
+					}, function (error) {
+						console.log('FAILED...', error);
+					});
+			});
+		}
+	</script>
+</head>
+
 </head>
 
 <body class="is-preload">
@@ -135,62 +161,16 @@
 				<div class="row">
 					<h1 class="text-center design">Let's Design Your Success</h1>
 				</div>
-				<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-				</script>
-				<script type="text/javascript">
-					(function () {
-						// https://dashboard.emailjs.com/admin/integration
-						emailjs.init(user_peOWtEPmRraZmTTaHjVpF);
-					})();
-				</script>
-				<script type="text/javascript">
-					window.onload = function () {
-						document.getElementById('contact-form').addEventListener('submit', function (event) {
-							event.preventDefault();
-							// generate a five digit number for the contact_number variable
-							this.contact_number.value = Math.random() * 100000 | 0;
-							// these IDs from the previous steps
-							emailjs.sendForm('contact_service', 'contact_form', this)
-								.then(function () {
-									console.log('SUCCESS!');
-								}, function (error) {
-									console.log('FAILED...', error);
-								});
-						});
-					}
-				</script>
-				</head>
-
-				<body>
-					<form id="contact-form">
-						<input type="hidden" name="contact_number">
-						<label>Name</label>
-						<input type="text" name="user_name">
-						<label>Email</label>
-						<input type="email" name="user_email">
-						<label>Message</label>
-						<textarea name="message"></textarea>
-						<input type="submit" value="Send">
-					</form>
-					<div class="col-sm-5">
-						<h3 class="connect">Ways to Connect:</h3>
-						<ul class="elements">
-							<li><a href="tel:3202676313">320-267-6313</a></li>
-							<li><a href="https://www.linkedin.com/in/kristina-hamilton-355524169/" target="_blank"
-									id="linkedIn">
-									<i class="fab fa-linkedin"></i>LinkedIn</a></li>
-							<li> <a href="https://github.com/Kay0s/" target="_blank" id="gitHub">
-									<i class="fab fa-github"></i>GitHub</a></li>
-							<li><a href="mailto:hamilton.kristina@gmail.com" target="_blank" id="email">
-									<i class="far fa-envelope"></i>Email</a></li>
-							<li><a
-									href="https://drive.google.com/file/d/18geXAxGVfHM9pWboM1ckOjhGMa-X8P_4/view?usp=sharing">
-									<i class="far fa-file">Resume</i></a>
-						</ul>
-					</div>
-					<div class="col-6 col-12-medium imp-medium">
-						<span class="image fit"><img src="images/collaborate.jpg" alt="computer_keyboard" /></span>
-					</div>
+				<form id="contact-form">
+					<input type="hidden" name="contact_number">
+					<label>Name</label>
+					<input type="text" name="user_name">
+					<label>Email</label>
+					<input type="email" name="user_email">
+					<label>Message</label>
+					<textarea name="message"></textarea>
+					<input type="submit" value="Send">
+				</form>
 			</div>
 	</div>
 	</section>
@@ -213,8 +193,6 @@
 			<li>&copy; 2021 Kristina Hamilton</li>
 			<li>Photos:<a href="https://unsplash.com/photos/MJ_0PxIuquI"> Wengang Zhai</a> on <a
 					href="https://unsplash.com/@wgzhai">Unsplash </a></li>
-			<li><a href="https://unsplash.com/photos/FlPc9_VocJ4"> John Schnobrich</a> on <a
-					href="https://unsplash.com/@johnschno">Unsplash </a></li>
 			<li><a href="https://unsplash.com/photos/WkfDrhxDMC8"> Christian Wiediger</a> on <a
 					href="https://unsplash.com/@christianw">Unsplash </a></li>
 			<li><a href="https://www.pexels.com/photo/people-inside-building-3184455/">
